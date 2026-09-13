@@ -1,4 +1,4 @@
-#include <stdio.h>
+п»ї#include <stdio.h>
 #include <locale.h>
 int main() {
     setlocale(LC_CTYPE, "RUS");
@@ -7,7 +7,7 @@ int main() {
     int mesiach = 30 * 4;
     float new_chena = 2 * x + a;
     float chena = mesiach * new_chena;
-    printf("Итоговая сумма к оплате: %.2f руб.\n", chena);
+    printf("РС‚РѕРіРѕРІР°СЏ СЃСѓРјРјР° Рє РѕРїР»Р°С‚Рµ: %.2f СЂСѓР±.\n", chena);
 
     return 0;
 }
